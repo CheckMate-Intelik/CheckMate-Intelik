@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Muhammad Faez Siddiqui, Tech Lead and Full Stack Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Muhammad Faez Siddiqui, Tech Lead and Full Stack Engineer">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17171c"/><stop offset="1" stop-color="#0C0C0F"/></linearGradient>
 <pattern id="sq" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="#D6B25E" opacity=".07"/><rect x="30" y="30" width="30" height="30" fill="#D6B25E" opacity=".07"/></pattern>
 </defs>
-<rect width="900" height="260" rx="14" fill="url(#bg)"/>
-<rect width="900" height="260" rx="14" fill="url(#sq)"/>
-<rect x=".5" y=".5" width="899" height="259" rx="14" fill="none" stroke="#D6B25E" stroke-opacity=".4"/>
-<text x="450" y="52" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="6" fill="#D6B25E">TECH LEAD  ·  FULL STACK  ·  KARACHI</text>
-<text x="450" y="128" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="700" fill="#F1EEE6">Muhammad Faez Siddiqui</text>
-<text x="450" y="172" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="22" fill="#D6B25E">I plan the moves, then ship the product.</text>
-<line x1="380" y1="205" x2="520" y2="205" stroke="#D6B25E" stroke-opacity=".5"/>
-<text x="450" y="230" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="5" fill="#8b8576">CHECKMATE  ·  INTELIK</text>
+<rect width="800" height="300" rx="16" fill="url(#bg)"/>
+<rect width="800" height="300" rx="16" fill="url(#sq)"/>
+<rect x=".5" y=".5" width="799" height="299" rx="16" fill="none" stroke="#D6B25E" stroke-opacity=".45"/>
+<text x="400" y="62" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" letter-spacing="4" fill="#D6B25E">TECH LEAD · FULL STACK</text>
+<text x="400" y="148" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="58" font-weight="700" fill="#F1EEE6">Muhammad Faez Siddiqui</text>
+<text x="400" y="204" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="31" fill="#D6B25E">I plan the moves, then ship the product.</text>
+<line x1="320" y1="236" x2="480" y2="236" stroke="#D6B25E" stroke-opacity=".5"/>
+<text x="400" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="20" letter-spacing="5" fill="#8b8576">CHECKMATE · INTELIK</text>
 </svg>
