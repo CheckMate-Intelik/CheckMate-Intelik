@@ -53,4 +53,4 @@ More case studies on my [portfolio](https://www.faezsiddiqui.com).
 
 ## Let's talk
 
-[Portfolio](https://www.faezsiddiqui.com) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/)
+[Portfolio](https://www.faezsiddiqui.com) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/) · [WhatsApp](https://wa.me/923392464826)
