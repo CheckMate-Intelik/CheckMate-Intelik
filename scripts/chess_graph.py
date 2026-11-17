@@ -10,7 +10,9 @@ import sys
 import urllib.request
 
 CELL, GAP, PAD_X, PAD_TOP, PAD_BOTTOM = 18, 4, 24, 64, 36
-WEEKS_SHOWN = 26
+WEEKS_SHOWN = 52
+HALF = 26
+BAND_GAP = 22
 STEP = CELL + GAP
 GOLD = ["#4a3f1f", "#8a7230", "#D6B25E", "#f3dc9b"]
 DARK_SQ, LIGHT_SQ = "#15140f", "#1d1b14"
@@ -75,30 +77,35 @@ def knight_path(weeks):
 
 
 def render(weeks, total, user):
-    cols = len(weeks)
+    bands = [weeks[:HALF], weeks[HALF:]]
+    cols = HALF
     top = max(max(w) for w in weeks)
     width = PAD_X * 2 + cols * STEP
-    height = PAD_TOP + 7 * STEP + PAD_BOTTOM
+    band_h = 7 * STEP
+    height = PAD_TOP + 2 * band_h + BAND_GAP + PAD_BOTTOM
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" '
         f'aria-label="{total} contributions in the last year, drawn as a chessboard">',
         f'<rect width="{width}" height="{height}" rx="14" fill="#0C0C0F"/>',
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="14" fill="none" stroke="#D6B25E" stroke-opacity=".4"/>',
         f'<text x="{PAD_X}" y="30" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#D6B25E">'
-        f'THE BOARD  ·  {total} MOVES / 6 MONTHS</text>',
+        f'THE BOARD  ·  {total} MOVES / 12 MONTHS</text>',
         f'<text x="{width-PAD_X}" y="30" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#8b8576">@{user}</text>',
     ]
-    for c, week in enumerate(weeks):
-        for r, n in enumerate(week):
-            lv = level(n, top)
-            fill = GOLD[lv] if lv >= 0 else (DARK_SQ if (c + r) % 2 == 0 else LIGHT_SQ)
-            out.append(f'<rect x="{PAD_X + c*STEP}" y="{PAD_TOP + r*STEP}" width="{CELL}" height="{CELL}" rx="2" fill="{fill}"/>')
-    pts = knight_path(weeks)
-    cx = lambda c: PAD_X + c * STEP + CELL / 2
-    cy = lambda r: PAD_TOP + r * STEP + CELL / 2
-    d = "M" + " L".join(f"{cx(c):.1f} {cy(r):.1f}" for c, r in pts)
+    paths = []
+    for b, band in enumerate(bands):
+        oy = PAD_TOP + b * (band_h + BAND_GAP)
+        for c, week in enumerate(band):
+            for r, n in enumerate(week):
+                lv = level(n, top)
+                fill = GOLD[lv] if lv >= 0 else (DARK_SQ if (c + r) % 2 == 0 else LIGHT_SQ)
+                out.append(f'<rect x="{PAD_X + c*STEP}" y="{oy + r*STEP}" width="{CELL}" height="{CELL}" rx="2" fill="{fill}"/>')
+        pts = knight_path(band)
+        paths.append("M" + " L".join(f"{PAD_X + c*STEP + CELL/2:.1f} {oy + r*STEP + CELL/2:.1f}" for c, r in pts))
+        npts = len(pts)
+    d = " ".join(paths)
     out.append(f'<path d="{d}" fill="none" stroke="#D6B25E" stroke-opacity=".35" stroke-dasharray="3 4"/>')
-    dur = max(len(pts) * 0.9, 10)
+    dur = max(npts * 2 * 0.9, 10)
     out.append(
         '<g><circle r="13" fill="#D6B25E" fill-opacity=".18"/>'
         '<text y="9" text-anchor="middle" font-size="26" fill="#f3dc9b" '
