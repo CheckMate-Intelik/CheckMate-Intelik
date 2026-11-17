@@ -7,15 +7,12 @@
 ![Role](https://img.shields.io/badge/role-Tech%20Lead-D6B25E?style=flat-square&labelColor=0C0C0F)
 ![Company](https://img.shields.io/badge/company-Intelik-1F3A5F?style=flat-square&labelColor=0C0C0F)
 ![Location](https://img.shields.io/badge/based%20in-Karachi-2d6a4f?style=flat-square&labelColor=0C0C0F)
-![Open to](https://img.shields.io/badge/open%20to-Tech%20Lead%20%2F%20Full%20Stack%20roles-8250df?style=flat-square&labelColor=0C0C0F)
 
 </div>
 
 ## About
 
 Tech Lead and founding team member at Intelik. I design, build and ship software end to end: from the first architecture sketch to production, across web, mobile and backend.
-
-Hiring for a technical role? See my role-focused profiles: **[Tech Lead](https://www.faezsiddiqui.com/tech-lead/)** · **[Full Stack Software Engineer](https://www.faezsiddiqui.com/software-engineer/)**.
 
 ## Tech stack
 
@@ -56,4 +53,4 @@ More case studies on my [portfolio](https://www.faezsiddiqui.com).
 
 ## Let's talk
 
-[Portfolio](https://www.faezsiddiqui.com) · [Tech Lead profile](https://www.faezsiddiqui.com/tech-lead/) · [Full Stack profile](https://www.faezsiddiqui.com/software-engineer/) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/)
+[Portfolio](https://www.faezsiddiqui.com) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/)
