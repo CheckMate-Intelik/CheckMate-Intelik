@@ -15,10 +15,27 @@
 
 Tech Lead and founding team member at Intelik. I design, build and ship software end to end: from the first architecture sketch to production, across web, mobile and backend.
 
+Hiring for a technical role? See my role-focused profiles: **[Tech Lead](https://www.faezsiddiqui.com/tech-lead/)** · **[Full Stack Software Engineer](https://www.faezsiddiqui.com/software-engineer/)**.
+
 ## Tech stack
 
 <div align="center">
-<img src="assets/stack.svg" alt="TypeScript, JavaScript, Python, Next.js, React, React Native, Node.js, Express.js, FastAPI, Tailwind CSS, PostgreSQL, Prisma, Docker, REST APIs" width="100%">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-2a2518?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-2a2518?style=flat-square)
+![Python](https://img.shields.io/badge/Python-2a2518?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-2a2518?style=flat-square)
+![React](https://img.shields.io/badge/React-2a2518?style=flat-square)
+![React Native](https://img.shields.io/badge/React%20Native-2a2518?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-2a2518?style=flat-square)
+![Express.js](https://img.shields.io/badge/Express.js-2a2518?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-2a2518?style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2a2518?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2a2518?style=flat-square)
+![Prisma](https://img.shields.io/badge/Prisma-2a2518?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2a2518?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-2a2518?style=flat-square)
+
 </div>
 
 ## Selected work
@@ -39,4 +56,4 @@ More case studies on my [portfolio](https://www.faezsiddiqui.com).
 
 ## Let's talk
 
-[Portfolio](https://www.faezsiddiqui.com) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/)
+[Portfolio](https://www.faezsiddiqui.com) · [Tech Lead profile](https://www.faezsiddiqui.com/tech-lead/) · [Full Stack profile](https://www.faezsiddiqui.com/software-engineer/) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/)
