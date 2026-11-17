@@ -53,4 +53,4 @@ More case studies on my [portfolio](https://www.faezsiddiqui.com).
 
 ## Let's talk
 
-[Portfolio](https://www.faezsiddiqui.com) · [LinkedIn](https://www.linkedin.com/in/muhammad-faez-siddiqui/) · [WhatsApp](https://wa.me/923392464826) · [![Email me](https://img.shields.io/badge/Email_me-D6B25E?style=flat-square&logo=gmail&logoColor=0C0C0F)](mailto:mo.faez.sidd@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-D6B25E?style=flat-square&logo=googlechrome&logoColor=0C0C0F)](https://www.faezsiddiqui.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-D6B25E?style=flat-square&logo=linkedin&logoColor=0C0C0F)](https://www.linkedin.com/in/muhammad-faez-siddiqui/) [![WhatsApp](https://img.shields.io/badge/WhatsApp-D6B25E?style=flat-square&logo=whatsapp&logoColor=0C0C0F)](https://wa.me/923392464826) [![Email](https://img.shields.io/badge/Email-D6B25E?style=flat-square&logo=gmail&logoColor=0C0C0F)](mailto:mo.faez.sidd@gmail.com)
